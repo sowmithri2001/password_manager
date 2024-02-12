@@ -1,0 +1,28 @@
+.toastBar {
+  margin-bottom: 35px;
+  background-color: var(--successGreen);
+  border: 1px solid var(--successGreenBorder);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 23px;
+  width: 32em;
+  border-radius: 2px;
+}
+
+.toastMsg {
+  color: var(--successGreenFont);
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 17px;
+  font-weight: bold;
+}
+
+.toastClose {
+  color: var(--successGreenFont);
+   font-size: 20px;
+   margin-bottom: 5px;
+  /* letter-spacing: 0; */
+  font-weight: 900;
+  cursor: pointer;
+}
